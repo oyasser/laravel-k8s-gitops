@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/test', function () {
     return 'Laravel is working inside Kubernetes!';
 });
+
+Route::get('/sync', function () {
+    return 'App synced!';
+});
