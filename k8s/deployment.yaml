@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: laravel-app
-          image: osama82/laravel-app:latest
+          image: osama82/laravel-app:v2
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80
