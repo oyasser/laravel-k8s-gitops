@@ -24,3 +24,7 @@ Route::get('/test', function () {
 Route::get('/sync', function () {
     return 'App synced!';
 });
+
+Route::get('/sync2', function () {
+    return 'App synced!';
+});
